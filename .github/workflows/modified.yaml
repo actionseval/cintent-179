@@ -10,7 +10,7 @@ on: [repository_dispatch, workflow_dispatch]
 
 jobs:
   pytest:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         # CINTENT >> REMOVE_MATRIX
